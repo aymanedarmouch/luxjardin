@@ -1,0 +1,4 @@
+node_modules
+dist
+.vercel
+setup-images.ps1

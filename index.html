@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LuxJardin — Pépinière d'Excellence à Marrakech</title>
+  <meta name="description" content="LuxJardin, votre pépinière d'excellence à Marrakech. Plantes méditerranéennes, tropicales, cactées, arbres d'ornement. Conception de jardins et aménagement paysager." />
+  <meta name="keywords" content="pépinière Marrakech, plantes Marrakech, jardinerie, aménagement paysager, LuxJardin, nursery Marrakech" />
+  <meta property="og:title" content="LuxJardin — Pépinière d'Excellence à Marrakech" />
+  <meta property="og:description" content="Cultivons l'excellence végétale depuis le cœur de Marrakech." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌿</text></svg>" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div class="loader" id="loader">
+    <div class="loader-leaf">🌿</div>
+    <div class="loader-logo">Lux<span>Jardin</span></div>
+    <div class="loader-bar-wrapper">
+      <div class="loader-bar"></div>
+    </div>
+  </div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">
+        <span class="nav-logo-leaf">🌿</span>
+        <span class="nav-logo-text">Lux<span>Jardin</span></span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#hero" class="nav-link" data-i18n="nav.home">Accueil</a>
+        <a href="#about" class="nav-link" data-i18n="nav.about">À Propos</a>
+        <a href="#collections" class="nav-link" data-i18n="nav.collections">Collections</a>
+        <a href="#services" class="nav-link" data-i18n="nav.services">Services</a>
+        <a href="#gallery" class="nav-link" data-i18n="nav.gallery">Galerie</a>
+        <a href="#blog" class="nav-link" data-i18n="nav.blog">Blog</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+      </div>
+
+      <div class="nav-right">
+        <div class="lang-toggle">
+          <button class="lang-btn active" data-lang="fr">FR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <a href="#contact" class="nav-cta desktop-only" data-i18n="nav.cta">Nous Contacter</a>
+      </div>
+
+      <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="/images/hero.png" alt="LuxJardin Nursery Marrakech" />
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-subtitle" data-i18n="hero.subtitle">Pépinière d'Excellence à Marrakech</p>
+        <h1 class="hero-title" data-i18n="hero.title">L'Art du Jardin,<br>Réinventé.</h1>
+        <p class="hero-description" data-i18n="hero.description">Depuis le cœur de Marrakech, LuxJardin cultive des plantes d'exception pour transformer vos espaces en véritables oasis de verdure.</p>
+        <div class="hero-actions">
+          <a href="#collections" class="btn btn-accent" data-i18n="hero.cta">
+            Découvrir Nos Plantes
+          </a>
+          <a href="#contact" class="btn btn-secondary" data-i18n="hero.cta2">
+            Prendre Rendez-vous
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about section pattern-bg" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrapper reveal-left">
+          <div class="about-image">
+            <img src="/images/about.png" alt="LuxJardin Marrakech Garden" />
+          </div>
+          <div class="about-image-accent"></div>
+        </div>
+        <div class="about-text reveal-right">
+          <span class="section-label" data-i18n="about.label">Notre Histoire</span>
+          <h2 class="section-title" data-i18n="about.title">Une Passion Enracinée dans la Terre Rouge de Marrakech</h2>
+          <p data-i18n="about.p1">LuxJardin est née d'une passion profonde pour la nature et l'art paysager marocain. Située au cœur de Marrakech, notre pépinière allie le savoir-faire traditionnel à une vision contemporaine du jardin.</p>
+          <p data-i18n="about.p2">Nous cultivons avec soin une sélection rigoureuse de plantes méditerranéennes, tropicales, cactées et arbres d'ornement, adaptées au climat unique de notre région. Chaque plante qui quitte notre pépinière porte en elle notre engagement envers l'excellence.</p>
+          <p data-i18n="about.p3">Notre équipe d'experts passionnés vous accompagne dans chaque étape de votre projet végétal, de la sélection des espèces à la conception de votre jardin de rêve.</p>
+
+          <div class="about-stats">
+            <div class="about-stat">
+              <div class="about-stat-number" data-i18n="about.stat1.number">2000+</div>
+              <div class="about-stat-label" data-i18n="about.stat1.label">Variétés de Plantes</div>
+            </div>
+            <div class="about-stat">
+              <div class="about-stat-number" data-i18n="about.stat2.number">15+</div>
+              <div class="about-stat-label" data-i18n="about.stat2.label">Années d'Expérience</div>
+            </div>
+            <div class="about-stat">
+              <div class="about-stat-number" data-i18n="about.stat3.number">500+</div>
+              <div class="about-stat-label" data-i18n="about.stat3.label">Jardins Réalisés</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COLLECTIONS SECTION ===== -->
+  <section class="collections section" id="collections">
+    <div class="container">
+      <div class="collections-header reveal">
+        <span class="section-label" data-i18n="collections.label">Nos Collections</span>
+        <h2 class="section-title" data-i18n="collections.title">Des Plantes d'Exception pour Chaque Espace</h2>
+        <p class="section-description" data-i18n="collections.description">Explorez notre sélection soigneusement cultivée, des classiques méditerranéens aux espèces tropicales les plus rares.</p>
+      </div>
+
+      <div class="collections-grid">
+        <!-- Mediterranean -->
+        <div class="collection-card reveal-scale" data-delay="0">
+          <div class="collection-card-image">
+            <img src="/images/mediterranean.png" alt="Mediterranean Plants" />
+          </div>
+          <div class="collection-card-overlay"></div>
+          <div class="collection-card-content">
+            <h3 class="collection-card-title" data-i18n="collections.mediterranean.title">Méditerranéennes</h3>
+            <p class="collection-card-desc" data-i18n="collections.mediterranean.desc">Oliviers centenaires, citronniers, lavande et romarin — des classiques résistants au climat de Marrakech.</p>
+            <span class="collection-card-cta" data-i18n="collections.mediterranean.cta">Explorer <span class="arrow">→</span></span>
+          </div>
+        </div>
+
+        <!-- Tropical -->
+        <div class="collection-card reveal-scale" data-delay="100">
+          <div class="collection-card-image">
+            <img src="/images/tropical.png" alt="Tropical Plants" />
+          </div>
+          <div class="collection-card-overlay"></div>
+          <div class="collection-card-content">
+            <h3 class="collection-card-title" data-i18n="collections.tropical.title">Tropicales</h3>
+            <p class="collection-card-desc" data-i18n="collections.tropical.desc">Monstera, oiseau de paradis, fougères et palmiers exotiques pour une ambiance luxuriante.</p>
+            <span class="collection-card-cta" data-i18n="collections.tropical.cta">Explorer <span class="arrow">→</span></span>
+          </div>
+        </div>
+
+        <!-- Cacti -->
+        <div class="collection-card reveal-scale" data-delay="200">
+          <div class="collection-card-image">
+            <img src="/images/cacti.png" alt="Cacti and Succulents" />
+          </div>
+          <div class="collection-card-overlay"></div>
+          <div class="collection-card-content">
+            <h3 class="collection-card-title" data-i18n="collections.cacti.title">Cactées & Succulentes</h3>
+            <p class="collection-card-desc" data-i18n="collections.cacti.desc">Une collection unique de cactus, echeveria et aloe vera, parfaits pour les jardins désertiques.</p>
+            <span class="collection-card-cta" data-i18n="collections.cacti.cta">Explorer <span class="arrow">→</span></span>
+          </div>
+        </div>
+
+        <!-- Ornamental -->
+        <div class="collection-card reveal-scale" data-delay="300">
+          <div class="collection-card-image">
+            <img src="/images/ornamental.png" alt="Ornamental Trees" />
+          </div>
+          <div class="collection-card-overlay"></div>
+          <div class="collection-card-content">
+            <h3 class="collection-card-title" data-i18n="collections.ornamental.title">Arbres d'Ornement</h3>
+            <p class="collection-card-desc" data-i18n="collections.ornamental.desc">Jacarandas, bougainvilliers, cyprès et hibiscus pour des jardins majestueux.</p>
+            <span class="collection-card-cta" data-i18n="collections.ornamental.cta">Explorer <span class="arrow">→</span></span>
+          </div>
+        </div>
+
+        <!-- Indoor -->
+        <div class="collection-card reveal-scale" data-delay="400">
+          <div class="collection-card-image">
+            <img src="/images/indoor.png" alt="Indoor Plants" />
+          </div>
+          <div class="collection-card-overlay"></div>
+          <div class="collection-card-content">
+            <h3 class="collection-card-title" data-i18n="collections.indoor.title">Plantes d'Intérieur</h3>
+            <p class="collection-card-desc" data-i18n="collections.indoor.desc">Ficus, pothos, sansevieria et spathiphyllum pour embellir vos espaces de vie.</p>
+            <span class="collection-card-cta" data-i18n="collections.indoor.cta">Explorer <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section class="services section pattern-bg" id="services">
+    <div class="container">
+      <div class="services-header reveal">
+        <span class="section-label" data-i18n="services.label">Nos Services</span>
+        <h2 class="section-title" data-i18n="services.title">Un Accompagnement Complet</h2>
+        <p class="section-description" data-i18n="services.description">De la sélection des plantes à la réalisation de votre jardin, nous vous proposons un service sur-mesure.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal" data-delay="0">
+          <div class="service-icon">🏡</div>
+          <h3 class="service-title" data-i18n="services.design.title">Conception de Jardins</h3>
+          <p class="service-desc" data-i18n="services.design.desc">Nos paysagistes créent des jardins uniques qui reflètent votre personnalité et s'harmonisent avec l'architecture de votre espace.</p>
+        </div>
+
+        <div class="service-card reveal" data-delay="100">
+          <div class="service-icon">🌳</div>
+          <h3 class="service-title" data-i18n="services.landscaping.title">Aménagement Paysager</h3>
+          <p class="service-desc" data-i18n="services.landscaping.desc">Réalisation complète de votre projet paysager : terrassement, plantation, irrigation et éclairage.</p>
+        </div>
+
+        <div class="service-card reveal" data-delay="200">
+          <div class="service-icon">🚚</div>
+          <h3 class="service-title" data-i18n="services.delivery.title">Livraison & Plantation</h3>
+          <p class="service-desc" data-i18n="services.delivery.desc">Service de livraison et de plantation professionnelle dans tout Marrakech et ses environs.</p>
+        </div>
+
+        <div class="service-card reveal" data-delay="300">
+          <div class="service-icon">🌱</div>
+          <h3 class="service-title" data-i18n="services.consultation.title">Conseil & Entretien</h3>
+          <p class="service-desc" data-i18n="services.consultation.desc">Consultations personnalisées et programmes d'entretien pour garder vos plantes en pleine santé.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY SECTION ===== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="gallery-header reveal">
+        <span class="section-label" data-i18n="gallery.label">Notre Galerie</span>
+        <h2 class="section-title" data-i18n="gallery.title">Un Aperçu de Notre Univers Végétal</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item reveal-scale" data-delay="0">
+          <img src="/images/hero.png" alt="LuxJardin Nursery" />
+          <div class="gallery-item-overlay">
+            <span class="zoom-icon">⊕</span>
+          </div>
+        </div>
+        <div class="gallery-item reveal-scale" data-delay="100">
+          <img src="/images/mediterranean.png" alt="Mediterranean Plants" />
+          <div class="gallery-item-overlay">
+            <span class="zoom-icon">⊕</span>
+          </div>
+        </div>
+        <div class="gallery-item reveal-scale" data-delay="200">
+          <img src="/images/tropical.png" alt="Tropical Plants" />
+          <div class="gallery-item-overlay">
+            <span class="zoom-icon">⊕</span>
+          </div>
+        </div>
+        <div class="gallery-item reveal-scale" data-delay="300">
+          <img src="/images/about.png" alt="Moroccan Garden" />
+          <div class="gallery-item-overlay">
+            <span class="zoom-icon">⊕</span>
+          </div>
+        </div>
+        <div class="gallery-item reveal-scale" data-delay="400">
+          <img src="/images/cacti.png" alt="Cacti Collection" />
+          <div class="gallery-item-overlay">
+            <span class="zoom-icon">⊕</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BLOG SECTION ===== -->
+  <section class="blog section pattern-bg" id="blog">
+    <div class="container">
+      <div class="blog-header reveal">
+        <span class="section-label" data-i18n="blog.label">Notre Blog</span>
+        <h2 class="section-title" data-i18n="blog.title">Conseils & Inspirations Jardinage</h2>
+        <p class="section-description" data-i18n="blog.description">Découvrez nos articles d'experts pour créer et entretenir le jardin de vos rêves à Marrakech.</p>
+      </div>
+
+      <div class="blog-grid">
+        <!-- Blog Post 1 -->
+        <a href="/blog-landscaping.html" class="blog-card reveal" data-delay="0">
+          <div class="blog-card-image">
+            <img src="/images/blog-landscaping.png" alt="Aménagement paysager Marrakech" loading="lazy" />
+            <div class="blog-card-category" data-i18n="blog.post1.category">Aménagement</div>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span class="blog-card-date">15 Mars 2026</span>
+              <span class="blog-card-readtime" data-i18n="blog.post1.readtime">12 min de lecture</span>
+            </div>
+            <h3 class="blog-card-title" data-i18n="blog.post1.title">Guide Complet de l'Aménagement Paysager à Marrakech</h3>
+            <p class="blog-card-excerpt" data-i18n="blog.post1.excerpt">Tout ce que vous devez savoir pour créer un jardin d'exception dans le climat unique de Marrakech. Techniques, plantes recommandées et erreurs à éviter.</p>
+            <span class="blog-card-readmore" data-i18n="blog.readmore">Lire l'article <span class="arrow">→</span></span>
+          </div>
+        </a>
+
+        <!-- Blog Post 2 -->
+        <a href="/blog-mediterranean.html" class="blog-card reveal" data-delay="100">
+          <div class="blog-card-image">
+            <img src="/images/blog-mediterranean.png" alt="Plantes méditerranéennes Maroc" loading="lazy" />
+            <div class="blog-card-category" data-i18n="blog.post2.category">Plantes</div>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span class="blog-card-date">28 Février 2026</span>
+              <span class="blog-card-readtime" data-i18n="blog.post2.readtime">15 min de lecture</span>
+            </div>
+            <h3 class="blog-card-title" data-i18n="blog.post2.title">Les 20 Meilleures Plantes pour un Jardin Méditerranéen au Maroc</h3>
+            <p class="blog-card-excerpt" data-i18n="blog.post2.excerpt">Notre sélection d'experts des plantes les plus adaptées au climat marocain. Oliviers, agrumes, aromatiques et plus encore.</p>
+            <span class="blog-card-readmore" data-i18n="blog.readmore">Lire l'article <span class="arrow">→</span></span>
+          </div>
+        </a>
+
+        <!-- Blog Post 3 -->
+        <a href="/blog-cacti.html" class="blog-card reveal" data-delay="200">
+          <div class="blog-card-image">
+            <img src="/images/blog-cacti.png" alt="Entretien cactus succulentes" loading="lazy" />
+            <div class="blog-card-category" data-i18n="blog.post3.category">Entretien</div>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span class="blog-card-date">10 Février 2026</span>
+              <span class="blog-card-readtime" data-i18n="blog.post3.readtime">10 min de lecture</span>
+            </div>
+            <h3 class="blog-card-title" data-i18n="blog.post3.title">Comment Entretenir vos Cactus et Succulentes à Marrakech</h3>
+            <p class="blog-card-excerpt" data-i18n="blog.post3.excerpt">Guide pratique pour l'arrosage, le rempotage et la protection de vos cactées. Conseils adaptés au climat semi-aride de Marrakech.</p>
+            <span class="blog-card-readmore" data-i18n="blog.readmore">Lire l'article <span class="arrow">→</span></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS SECTION ===== -->
+  <section class="testimonials section pattern-bg" id="testimonials">
+    <div class="container">
+      <div class="testimonials-header reveal">
+        <span class="section-label" data-i18n="testimonials.label">Témoignages</span>
+        <h2 class="section-title" data-i18n="testimonials.title">Ce Que Disent Nos Clients</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal" data-delay="0">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text" data-i18n="testimonials.1.text">"LuxJardin a transformé notre riad en un véritable paradis vert. Leur expertise et leur passion sont inégalées à Marrakech."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">SM</div>
+            <div>
+              <div class="testimonial-name" data-i18n="testimonials.1.name">Sophie M.</div>
+              <div class="testimonial-role" data-i18n="testimonials.1.role">Propriétaire de Riad</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" data-delay="100">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text" data-i18n="testimonials.2.text">"Un service exceptionnel du début à la fin. Les plantes sont magnifiques et l'équipe est d'un professionnalisme remarquable."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">KB</div>
+            <div>
+              <div class="testimonial-name" data-i18n="testimonials.2.name">Karim B.</div>
+              <div class="testimonial-role" data-i18n="testimonials.2.role">Architecte Paysagiste</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" data-delay="200">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text" data-i18n="testimonials.3.text">"Depuis que nous travaillons avec LuxJardin, notre hôtel a reçu de nombreux compliments pour ses jardins. Merci !"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">MD</div>
+            <div>
+              <div class="testimonial-name" data-i18n="testimonials.3.name">Marie-Claire D.</div>
+              <div class="testimonial-role" data-i18n="testimonials.3.role">Directrice d'Hôtel</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="reveal-left">
+          <span class="section-label" data-i18n="contact.label">Contact</span>
+          <h2 class="section-title" data-i18n="contact.title">Venez Nous Rendre Visite</h2>
+          <p class="section-description" data-i18n="contact.description" style="margin-bottom: 2rem;">Notre pépinière vous accueille 7 jours sur 7. N'hésitez pas à nous contacter pour toute question.</p>
+
+          <div class="contact-info">
+            <div class="contact-detail">
+              <div class="contact-detail-icon">📍</div>
+              <div>
+                <div class="contact-detail-title" data-i18n="contact.address.title">Adresse</div>
+                <div class="contact-detail-value" data-i18n="contact.address.value">Marrakech, Maroc</div>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">📞</div>
+              <div>
+                <div class="contact-detail-title" data-i18n="contact.phone.title">Téléphone</div>
+                <div class="contact-detail-value">
+                  <a href="tel:+212650389121">+212 6 50 38 91 21</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">🕐</div>
+              <div>
+                <div class="contact-detail-title" data-i18n="contact.hours.title">Horaires</div>
+                <div class="contact-detail-value" data-i18n="contact.hours.value">Tous les jours : 09h00 – 17h00</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a href="https://wa.me/212650389121?text=Bonjour%20LuxJardin%20!%20🌿%20Je%20souhaite%20avoir%20plus%20d'informations." class="btn btn-whatsapp" target="_blank" rel="noopener">
+              <span class="btn-icon">💬</span>
+              <span data-i18n="contact.whatsapp">Discuter sur WhatsApp</span>
+            </a>
+            <a href="tel:+212650389121" class="btn btn-call">
+              <span class="btn-icon">📞</span>
+              <span data-i18n="contact.call">Appeler Maintenant</span>
+            </a>
+          </div>
+
+          <div class="contact-map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108703.20755469437!2d-8.08954815!3d31.63473055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee43a1c56957%3A0x90e0e4812eaff28b!2sLuxJardin!5e0!3m2!1sfr!2sma!4v1712300000000!5m2!1sfr!2sma" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="LuxJardin Location">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="reveal-right">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" name="name" class="form-input" data-i18n="contact.form.name" placeholder="Votre Nom" required />
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-input" data-i18n="contact.form.email" placeholder="Votre Email" required />
+            </div>
+            <div class="form-group">
+              <input type="tel" name="phone" class="form-input" data-i18n="contact.form.phone" placeholder="Votre Téléphone" />
+            </div>
+            <div class="form-group">
+              <textarea name="message" class="form-textarea" data-i18n="contact.form.message" placeholder="Votre Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-accent" data-i18n="contact.form.submit" style="width: 100%; justify-content: center;">
+              Envoyer le Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <span class="nav-logo-leaf">🌿</span>
+            <span class="nav-logo-text">Lux<span>Jardin</span></span>
+          </div>
+          <p class="footer-brand-desc" data-i18n="footer.description">Votre pépinière d'excellence à Marrakech. Plantes, arbres, aménagement paysager et conseil horticole.</p>
+          <div class="footer-socials" style="margin-top: 1.5rem;">
+            <a href="https://wa.me/212650389121" class="footer-social" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+            <a href="#" class="footer-social" aria-label="Instagram">📷</a>
+            <a href="#" class="footer-social" aria-label="Facebook">📘</a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer.links.title">Liens Rapides</h4>
+          <div class="footer-links">
+            <a href="#hero" class="footer-link" data-i18n="nav.home">Accueil</a>
+            <a href="#about" class="footer-link" data-i18n="nav.about">À Propos</a>
+            <a href="#collections" class="footer-link" data-i18n="nav.collections">Collections</a>
+            <a href="#services" class="footer-link" data-i18n="nav.services">Services</a>
+            <a href="#gallery" class="footer-link" data-i18n="nav.gallery">Galerie</a>
+            <a href="#blog" class="footer-link" data-i18n="nav.blog">Blog</a>
+            <a href="#contact" class="footer-link" data-i18n="nav.contact">Contact</a>
+          </div>
+        </div>
+
+        <!-- Hours -->
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer.hours.title">Horaires d'Ouverture</h4>
+          <div class="footer-hours">
+            <div class="footer-hours-item">
+              <span data-i18n="footer.hours.everyday">Tous les jours</span>
+              <span>09:00 – 17:00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer.newsletter.title">Newsletter</h4>
+          <p class="footer-newsletter-desc" data-i18n="footer.newsletter.desc">Recevez nos conseils jardinage et offres exclusives.</p>
+          <form class="footer-newsletter-form" onsubmit="event.preventDefault();">
+            <input type="email" class="footer-newsletter-input" data-i18n="footer.newsletter.placeholder" placeholder="Votre email" />
+            <button type="submit" class="footer-newsletter-btn" data-i18n="footer.newsletter.button">S'abonner</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">© 2026 LuxJardin. Tous droits réservés.</p>
+        <p>
+          <span data-i18n="footer.madeWith">Fait avec</span> <span class="footer-bottom-heart">♥</span> <span data-i18n="footer.inMarrakech">à Marrakech</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING WHATSAPP BUTTON ===== -->
+  <a href="https://wa.me/212650389121?text=Bonjour%20LuxJardin%20!%20🌿" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    💬
+  </a>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
