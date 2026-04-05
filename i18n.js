@@ -112,6 +112,7 @@ const translations = {
 
     "contact.whatsapp": "Discuter sur WhatsApp",
     "contact.call": "Appeler Maintenant",
+    "contact.maps": "Ouvrir dans Maps",
 
     // Footer
     "footer.description": "Votre pépinière d'excellence à Marrakech. Plantes, arbres, aménagement paysager et conseil horticole.",
@@ -258,6 +259,7 @@ const translations = {
 
     "contact.whatsapp": "Chat on WhatsApp",
     "contact.call": "Call Now",
+    "contact.maps": "Open in Maps",
 
     // Footer
     "footer.description": "Your premium nursery in Marrakech. Plants, trees, landscaping, and horticultural guidance.",
