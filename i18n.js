@@ -98,7 +98,7 @@ const translations = {
     "contact.description": "Notre pépinière vous accueille 7 jours sur 7. N'hésitez pas à nous contacter pour toute question.",
 
     "contact.address.title": "Adresse",
-    "contact.address.value": "Marrakech, Maroc",
+    "contact.address.value": "Km 23 Rte d'Ourika, Marrakech",
 
     "contact.phone.title": "Téléphone",
     "contact.hours.title": "Horaires",
@@ -244,7 +244,7 @@ const translations = {
     "contact.description": "Our nursery welcomes you 7 days a week. Don't hesitate to reach out with any questions.",
 
     "contact.address.title": "Address",
-    "contact.address.value": "Marrakech, Morocco",
+    "contact.address.value": "Km 23 Rte d'Ourika, Marrakech",
 
     "contact.phone.title": "Phone",
     "contact.hours.title": "Hours",
