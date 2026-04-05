@@ -134,14 +134,14 @@ function initLoader() {
     setTimeout(() => {
       loader.classList.add('hidden');
       document.body.style.overflow = '';
-    }, 1800);
+    }, 800);
   });
 
   // Fallback — remove loader after 3 seconds max
   setTimeout(() => {
     loader.classList.add('hidden');
     document.body.style.overflow = '';
-  }, 3000);
+  }, 2000);
 }
 
 // ===== Contact Form =====

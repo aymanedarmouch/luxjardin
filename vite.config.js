@@ -14,6 +14,13 @@ export default defineConfig({
         blogMediterranean: resolve(__dirname, 'blog-mediterranean.html'),
         blogCacti: resolve(__dirname, 'blog-cacti.html'),
       }
-    }
+    },
+    // Enable minification and compression
+    minify: 'terser',
+    cssMinify: true,
+    // Split CSS into smaller chunks
+    cssCodeSplit: true,
+    // Optimize assets
+    assetsInlineLimit: 4096,
   }
 });
